@@ -1,0 +1,393 @@
+{
+ "plans": [
+  {
+   "version": 1,
+   "plan_type": "cheapest",
+   "date": "2026-10-17",
+   "start_time": "08:00",
+   "start_label": "Colaba, Mumbai",
+   "travelers": 2,
+   "objective": "least_time",
+   "days": [
+    {
+     "day": 1,
+     "stops": [
+      {
+       "order": 1,
+       "place_id": "mock_gateway_of_india",
+       "name": "Gateway of India",
+       "category": "landmark",
+       "arrive": "08:00",
+       "depart": "08:45",
+       "visit_minutes": 45,
+       "photo_indexes": [],
+       "maps_url": "https://www.google.com/maps/search/?api=1&query=Gateway+of+India+Mumbai",
+       "leg_from_previous": {
+        "mode": "WALK",
+        "distance_km": 0.0,
+        "duration_min": 0,
+        "duration_in_traffic_min": 0
+       }
+      },
+      {
+       "order": 2,
+       "place_id": "mock_csmt",
+       "name": "Chhatrapati Shivaji Maharaj Terminus (sample)",
+       "category": "landmark",
+       "arrive": "08:52",
+       "depart": "09:37",
+       "visit_minutes": 45,
+       "photo_indexes": [
+        0,
+        2
+       ],
+       "maps_url": "https://www.google.com/maps/search/?api=1&query=Chhatrapati+Shivaji+Maharaj+Terminus+(sample)+Mumbai",
+       "leg_from_previous": {
+        "mode": "DRIVE",
+        "distance_km": 2.6,
+        "duration_min": 6,
+        "duration_in_traffic_min": 7
+       }
+      },
+      {
+       "order": 3,
+       "place_id": "mock_marine_drive",
+       "name": "Marine Drive (sample)",
+       "category": "park",
+       "arrive": "09:42",
+       "depart": "10:42",
+       "visit_minutes": 60,
+       "photo_indexes": [],
+       "maps_url": "https://www.google.com/maps/search/?api=1&query=Marine+Drive+(sample)+Mumbai",
+       "leg_from_previous": {
+        "mode": "DRIVE",
+        "distance_km": 1.7,
+        "duration_min": 4,
+        "duration_in_traffic_min": 5
+       }
+      },
+      {
+       "order": 4,
+       "place_id": "mock_haji_ali",
+       "name": "Haji Ali Dargah (sample)",
+       "category": "landmark",
+       "arrive": "11:10",
+       "depart": "11:55",
+       "visit_minutes": 45,
+       "photo_indexes": [],
+       "maps_url": "https://www.google.com/maps/search/?api=1&query=Haji+Ali+Dargah+(sample)+Mumbai",
+       "leg_from_previous": {
+        "mode": "TRANSIT",
+        "distance_km": 5.9,
+        "duration_min": 28,
+        "duration_in_traffic_min": 28
+       }
+      },
+      {
+       "order": 5,
+       "place_id": "mock_siddhivinayak",
+       "name": "Siddhivinayak Temple (sample)",
+       "category": "landmark",
+       "arrive": "13:15",
+       "depart": "14:00",
+       "visit_minutes": 45,
+       "photo_indexes": [],
+       "maps_url": "https://www.google.com/maps/search/?api=1&query=Siddhivinayak+Temple+(sample)+Mumbai",
+       "leg_from_previous": {
+        "mode": "DRIVE",
+        "distance_km": 5.7,
+        "duration_min": 12,
+        "duration_in_traffic_min": 14
+       }
+      }
+     ],
+     "lunch": {
+      "after_stop_order": 4,
+      "name": "Sample Seafood Worli (mock)",
+      "place_id": "mock_lunch_worli",
+      "arrive": "11:58",
+      "minutes": 60,
+      "price_label": "₹₹",
+      "rating": 4.3,
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Sample+Seafood+Worli+(mock)+Mumbai"
+     },
+     "end_time": "14:00"
+    }
+   ],
+   "traffic_windows": [
+    {
+     "label": "Morning traffic",
+     "from": "08:00",
+     "to": "12:00",
+     "level": "moderate",
+     "note": "Drive times up to 1.3x normal (modelled estimate)"
+    },
+    {
+     "label": "Evening rush",
+     "from": "16:00",
+     "to": "18:00",
+     "level": "moderate",
+     "note": "Drive times up to 1.3x normal (modelled estimate)"
+    },
+    {
+     "label": "Evening rush",
+     "from": "18:00",
+     "to": "20:00",
+     "level": "heavy",
+     "note": "Drive times up to 1.7x normal (modelled estimate)"
+    },
+    {
+     "label": "Evening rush",
+     "from": "20:00",
+     "to": "22:00",
+     "level": "moderate",
+     "note": "Drive times up to 1.3x normal (modelled estimate)"
+    }
+   ],
+   "mode_options": [
+    {
+     "mode": "DRIVE",
+     "total_minutes": 46,
+     "total_km": 16.0,
+     "note": "Includes traffic"
+    },
+    {
+     "mode": "TRANSIT",
+     "total_minutes": 86,
+     "total_km": 16.0,
+     "note": "Scheduled/typical time"
+    },
+    {
+     "mode": "WALK",
+     "total_minutes": 192,
+     "total_km": 16.0,
+     "note": "Scheduled/typical time"
+    },
+    {
+     "mode": "TWO_WHEELER",
+     "total_minutes": 38,
+     "total_km": 16.0,
+     "note": "Includes traffic"
+    }
+   ],
+   "cost": {
+    "currency": "INR",
+    "travel": 171,
+    "food": 900,
+    "entry": 200,
+    "total": 1271,
+    "per_person": 636,
+    "assumptions": [
+     "Auto/budget cab ₹12/km per vehicle, 3 seats (editable)",
+     "Transit ₹25 per leg per person (editable)",
+     "Lunch uses a per-person meal budget by price level (editable)",
+     "Entry fees as entered, per person"
+    ],
+    "is_estimate": true
+   },
+   "tips": [
+    "Heavy traffic is likely 18:00-20:00; plan to be between stops outside that window.",
+    "Traffic is lightest around 12:00 (modelled estimate).",
+    "Lunch at Sample Seafood Worli (mock) around 11:58.",
+    "Estimated total 1271 INR, about 636 per person."
+   ],
+   "warnings": [],
+   "attribution": "Google Maps"
+  },
+  {
+   "version": 1,
+   "plan_type": "comfort",
+   "date": "2026-10-17",
+   "start_time": "08:00",
+   "start_label": "Colaba, Mumbai",
+   "travelers": 2,
+   "objective": "least_time",
+   "days": [
+    {
+     "day": 1,
+     "stops": [
+      {
+       "order": 1,
+       "place_id": "mock_gateway_of_india",
+       "name": "Gateway of India",
+       "category": "landmark",
+       "arrive": "08:00",
+       "depart": "08:45",
+       "visit_minutes": 45,
+       "photo_indexes": [],
+       "maps_url": "https://www.google.com/maps/search/?api=1&query=Gateway+of+India+Mumbai",
+       "leg_from_previous": {
+        "mode": "DRIVE",
+        "distance_km": 0.0,
+        "duration_min": 0,
+        "duration_in_traffic_min": 0
+       }
+      },
+      {
+       "order": 2,
+       "place_id": "mock_csmt",
+       "name": "Chhatrapati Shivaji Maharaj Terminus (sample)",
+       "category": "landmark",
+       "arrive": "08:52",
+       "depart": "09:37",
+       "visit_minutes": 45,
+       "photo_indexes": [
+        0,
+        2
+       ],
+       "maps_url": "https://www.google.com/maps/search/?api=1&query=Chhatrapati+Shivaji+Maharaj+Terminus+(sample)+Mumbai",
+       "leg_from_previous": {
+        "mode": "DRIVE",
+        "distance_km": 2.6,
+        "duration_min": 6,
+        "duration_in_traffic_min": 7
+       }
+      },
+      {
+       "order": 3,
+       "place_id": "mock_marine_drive",
+       "name": "Marine Drive (sample)",
+       "category": "park",
+       "arrive": "09:42",
+       "depart": "10:42",
+       "visit_minutes": 60,
+       "photo_indexes": [],
+       "maps_url": "https://www.google.com/maps/search/?api=1&query=Marine+Drive+(sample)+Mumbai",
+       "leg_from_previous": {
+        "mode": "DRIVE",
+        "distance_km": 1.7,
+        "duration_min": 4,
+        "duration_in_traffic_min": 5
+       }
+      },
+      {
+       "order": 4,
+       "place_id": "mock_haji_ali",
+       "name": "Haji Ali Dargah (sample)",
+       "category": "landmark",
+       "arrive": "10:59",
+       "depart": "11:44",
+       "visit_minutes": 45,
+       "photo_indexes": [],
+       "maps_url": "https://www.google.com/maps/search/?api=1&query=Haji+Ali+Dargah+(sample)+Mumbai",
+       "leg_from_previous": {
+        "mode": "DRIVE",
+        "distance_km": 5.9,
+        "duration_min": 13,
+        "duration_in_traffic_min": 17
+       }
+      },
+      {
+       "order": 5,
+       "place_id": "mock_siddhivinayak",
+       "name": "Siddhivinayak Temple (sample)",
+       "category": "landmark",
+       "arrive": "13:04",
+       "depart": "13:49",
+       "visit_minutes": 45,
+       "photo_indexes": [],
+       "maps_url": "https://www.google.com/maps/search/?api=1&query=Siddhivinayak+Temple+(sample)+Mumbai",
+       "leg_from_previous": {
+        "mode": "DRIVE",
+        "distance_km": 5.7,
+        "duration_min": 12,
+        "duration_in_traffic_min": 14
+       }
+      }
+     ],
+     "lunch": {
+      "after_stop_order": 4,
+      "name": "Sample Seafood Worli (mock)",
+      "place_id": "mock_lunch_worli",
+      "arrive": "11:47",
+      "minutes": 60,
+      "price_label": "₹₹",
+      "rating": 4.3,
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Sample+Seafood+Worli+(mock)+Mumbai"
+     },
+     "end_time": "13:49"
+    }
+   ],
+   "traffic_windows": [
+    {
+     "label": "Morning traffic",
+     "from": "08:00",
+     "to": "12:00",
+     "level": "moderate",
+     "note": "Drive times up to 1.3x normal (modelled estimate)"
+    },
+    {
+     "label": "Evening rush",
+     "from": "16:00",
+     "to": "18:00",
+     "level": "moderate",
+     "note": "Drive times up to 1.3x normal (modelled estimate)"
+    },
+    {
+     "label": "Evening rush",
+     "from": "18:00",
+     "to": "20:00",
+     "level": "heavy",
+     "note": "Drive times up to 1.7x normal (modelled estimate)"
+    },
+    {
+     "label": "Evening rush",
+     "from": "20:00",
+     "to": "22:00",
+     "level": "moderate",
+     "note": "Drive times up to 1.3x normal (modelled estimate)"
+    }
+   ],
+   "mode_options": [
+    {
+     "mode": "DRIVE",
+     "total_minutes": 46,
+     "total_km": 16.0,
+     "note": "Includes traffic"
+    },
+    {
+     "mode": "TRANSIT",
+     "total_minutes": 86,
+     "total_km": 16.0,
+     "note": "Scheduled/typical time"
+    },
+    {
+     "mode": "WALK",
+     "total_minutes": 192,
+     "total_km": 16.0,
+     "note": "Scheduled/typical time"
+    },
+    {
+     "mode": "TWO_WHEELER",
+     "total_minutes": 38,
+     "total_km": 16.0,
+     "note": "Includes traffic"
+    }
+   ],
+   "cost": {
+    "currency": "INR",
+    "travel": 288,
+    "food": 900,
+    "entry": 200,
+    "total": 1388,
+    "per_person": 694,
+    "assumptions": [
+     "Cab ₹18/km per vehicle, 4 seats (editable)",
+     "Lunch uses a per-person meal budget by price level (editable)",
+     "Entry fees as entered, per person"
+    ],
+    "is_estimate": true
+   },
+   "tips": [
+    "Heavy traffic is likely 18:00-20:00; plan to be between stops outside that window.",
+    "Traffic is lightest around 12:00 (modelled estimate).",
+    "Lunch at Sample Seafood Worli (mock) around 11:47.",
+    "Estimated total 1388 INR, about 694 per person."
+   ],
+   "warnings": [],
+   "attribution": "Google Maps"
+  }
+ ],
+ "status": "ok",
+ "warnings": []
+}

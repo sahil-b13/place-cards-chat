@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+test_photos/*.jpg
+test_photos/*.jpeg
+test_photos/*.png

@@ -1,0 +1,63 @@
+{
+  "_comment": "SAMPLE DATA for MOCK_MODE only. Landmark plus nearby restaurants (the 4th restaurant exists to prove the nearby<=3 cap).",
+  "places": [
+    {
+      "place_id": "mock_gateway_of_india",
+      "name": "Gateway of India",
+      "address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001, India",
+      "lat": 18.92199,
+      "lng": 72.83465,
+      "types": ["tourist_attraction", "monument", "point_of_interest", "establishment"],
+      "primary_type": "tourist_attraction",
+      "rating": 4.6,
+      "rating_count": 150000,
+      "price_level": null,
+      "open_now": true,
+      "hours_today": "Saturday: Open 24 hours",
+      "reviews": [
+        {"author": "Sample Reviewer F", "rating": 5, "text": "Iconic arch on the waterfront. Go early morning to avoid the crowds.", "when": "a week ago"},
+        {"author": "Sample Reviewer G", "rating": 4, "text": "Great photo spot and lots of boats nearby. Very busy on weekends.", "when": "2 months ago"},
+        {"author": "Sample Reviewer H", "rating": 5, "text": "Beautiful at sunset.", "when": "4 months ago"}
+      ],
+      "website": null,
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Gateway+of+India+Mumbai",
+      "editorial_summary": "Early 20th-century arch monument on the Mumbai waterfront."
+    },
+    {
+      "place_id": "mock_bademiya",
+      "name": "Bademiya",
+      "address": "Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra 400001, India",
+      "lat": 18.92222,
+      "lng": 72.83263,
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
+      "primary_type": "restaurant",
+      "rating": 4.0,
+      "rating_count": 9000,
+      "price_level": 1,
+      "open_now": true,
+      "hours_today": "Saturday: 7:00 PM – 3:00 AM",
+      "reviews": [],
+      "website": null,
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Bademiya+Colaba+Mumbai",
+      "editorial_summary": null
+    },
+    {
+      "place_id": "mock_sample_bistro",
+      "name": "Sample Bistro Colaba (mock)",
+      "address": "Colaba, Mumbai, Maharashtra 400001, India",
+      "lat": 18.9215,
+      "lng": 72.834,
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
+      "primary_type": "restaurant",
+      "rating": 3.9,
+      "rating_count": 80,
+      "price_level": 2,
+      "open_now": false,
+      "hours_today": "Saturday: 12:00 PM – 11:00 PM",
+      "reviews": [],
+      "website": null,
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Colaba+Mumbai+restaurant",
+      "editorial_summary": null
+    }
+  ]
+}

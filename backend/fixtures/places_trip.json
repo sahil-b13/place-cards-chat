@@ -1,0 +1,332 @@
+{
+ "_comment": "SAMPLE DATA for MOCK_MODE only (trip planner). Names echo real places for realism; all figures, hours and reviews are illustrative, not real Google data.",
+ "places": [
+  {
+   "place_id": "mock_csmt",
+   "name": "Chhatrapati Shivaji Maharaj Terminus (sample)",
+   "address": "Fort, Mumbai, Maharashtra, India",
+   "lat": 18.9398,
+   "lng": 72.8355,
+   "types": [
+    "tourist_attraction",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "tourist_attraction",
+   "rating": 4.6,
+   "rating_count": 90000,
+   "price_level": null,
+   "open_now": null,
+   "hours_today": "Saturday: Open 24 hours",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Chhatrapati+Shivaji+Maharaj+Terminus+(sample)+Mumbai",
+   "editorial_summary": "Historic railway terminus (sample text)."
+  },
+  {
+   "place_id": "mock_marine_drive",
+   "name": "Marine Drive (sample)",
+   "address": "Marine Drive, Mumbai, Maharashtra, India",
+   "lat": 18.944,
+   "lng": 72.8235,
+   "types": [
+    "park",
+    "tourist_attraction",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "park",
+   "rating": 4.6,
+   "rating_count": 120000,
+   "price_level": null,
+   "open_now": null,
+   "hours_today": "Saturday: Open 24 hours",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Marine+Drive+(sample)+Mumbai",
+   "editorial_summary": "Seafront promenade (sample text)."
+  },
+  {
+   "place_id": "mock_haji_ali",
+   "name": "Haji Ali Dargah (sample)",
+   "address": "Worli, Mumbai, Maharashtra, India",
+   "lat": 18.9827,
+   "lng": 72.8089,
+   "types": [
+    "tourist_attraction",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "tourist_attraction",
+   "rating": 4.6,
+   "rating_count": 80000,
+   "price_level": null,
+   "open_now": null,
+   "hours_today": "Saturday: 5:30 AM – 10:00 PM",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Haji+Ali+Dargah+(sample)+Mumbai",
+   "editorial_summary": "Sample landmark text."
+  },
+  {
+   "place_id": "mock_siddhivinayak",
+   "name": "Siddhivinayak Temple (sample)",
+   "address": "Prabhadevi, Mumbai, Maharashtra, India",
+   "lat": 19.0169,
+   "lng": 72.8302,
+   "types": [
+    "tourist_attraction",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "tourist_attraction",
+   "rating": 4.7,
+   "rating_count": 95000,
+   "price_level": null,
+   "open_now": null,
+   "hours_today": "Saturday: 5:30 AM – 10:00 PM",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Siddhivinayak+Temple+(sample)+Mumbai",
+   "editorial_summary": "Sample landmark text."
+  },
+  {
+   "place_id": "mock_night_market",
+   "name": "Sample Night Market (mock)",
+   "address": "Mumbai Central, Mumbai, Maharashtra, India",
+   "lat": 18.956,
+   "lng": 72.833,
+   "types": [
+    "market",
+    "tourist_attraction",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "tourist_attraction",
+   "rating": 4.2,
+   "rating_count": 3000,
+   "price_level": null,
+   "open_now": null,
+   "hours_today": "Saturday: 9:00 PM – 11:00 PM",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sample+Night+Market+(mock)+Mumbai",
+   "editorial_summary": "Evening-only market, used to test closed-at-arrival warnings."
+  },
+  {
+   "place_id": "mock_lunch_fort",
+   "name": "Sample Lunch Spot Fort (mock)",
+   "address": "Fort, Mumbai, Maharashtra, India",
+   "lat": 18.941,
+   "lng": 72.835,
+   "types": [
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "restaurant",
+   "rating": 4.4,
+   "rating_count": 2100,
+   "price_level": 1,
+   "open_now": null,
+   "hours_today": "Saturday: 11:00 AM – 11:00 PM",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sample+Lunch+Spot+Fort+(mock)+Mumbai",
+   "editorial_summary": null
+  },
+  {
+   "place_id": "mock_lunch_marine",
+   "name": "Sample Fine Dine Marine (mock)",
+   "address": "Marine Lines, Mumbai, Maharashtra, India",
+   "lat": 18.9446,
+   "lng": 72.824,
+   "types": [
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "restaurant",
+   "rating": 4.6,
+   "rating_count": 1500,
+   "price_level": 3,
+   "open_now": null,
+   "hours_today": "Saturday: 12:00 PM – 11:30 PM",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sample+Fine+Dine+Marine+(mock)+Mumbai",
+   "editorial_summary": null
+  },
+  {
+   "place_id": "mock_lunch_marine_budget",
+   "name": "Sample Budget Eats Marine (mock)",
+   "address": "Marine Lines, Mumbai, Maharashtra, India",
+   "lat": 18.9436,
+   "lng": 72.823,
+   "types": [
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "restaurant",
+   "rating": 4.2,
+   "rating_count": 900,
+   "price_level": 1,
+   "open_now": null,
+   "hours_today": "Saturday: 10:00 AM – 10:00 PM",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sample+Budget+Eats+Marine+(mock)+Mumbai",
+   "editorial_summary": null
+  },
+  {
+   "place_id": "mock_lunch_worli",
+   "name": "Sample Seafood Worli (mock)",
+   "address": "Worli, Mumbai, Maharashtra, India",
+   "lat": 18.9835,
+   "lng": 72.8095,
+   "types": [
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "restaurant",
+   "rating": 4.3,
+   "rating_count": 1200,
+   "price_level": 2,
+   "open_now": null,
+   "hours_today": "Saturday: 11:30 AM – 11:00 PM",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sample+Seafood+Worli+(mock)+Mumbai",
+   "editorial_summary": null
+  },
+  {
+   "place_id": "mock_lunch_prabhadevi",
+   "name": "Sample Thali Prabhadevi (mock)",
+   "address": "Prabhadevi, Mumbai, Maharashtra, India",
+   "lat": 19.0175,
+   "lng": 72.831,
+   "types": [
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "restaurant",
+   "rating": 4.5,
+   "rating_count": 2600,
+   "price_level": 2,
+   "open_now": null,
+   "hours_today": "Saturday: 11:00 AM – 10:30 PM",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sample+Thali+Prabhadevi+(mock)+Mumbai",
+   "editorial_summary": null
+  },
+  {
+   "place_id": "mock_lunch_closed",
+   "name": "Sample Late Diner (mock)",
+   "address": "Fort, Mumbai, Maharashtra, India",
+   "lat": 18.9402,
+   "lng": 72.836,
+   "types": [
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "primary_type": "restaurant",
+   "rating": 4.8,
+   "rating_count": 5000,
+   "price_level": 2,
+   "open_now": null,
+   "hours_today": "Saturday: 7:00 PM – 3:00 AM",
+   "reviews": [
+    {
+     "author": "Sample Reviewer",
+     "rating": 4,
+     "text": "Sample review text for mock mode only.",
+     "when": "a month ago"
+    }
+   ],
+   "website": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sample+Late+Diner+(mock)+Mumbai",
+   "editorial_summary": null
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+  "_comment": "SAMPLE DATA for MOCK_MODE only. Figures and review text are illustrative, not real Google data.",
+  "places": [
+    {
+      "place_id": "mock_leopold_cafe",
+      "name": "Leopold Cafe",
+      "address": "Shahid Bhagat Singh Rd, Colaba Causeway, Colaba, Mumbai, Maharashtra 400001, India",
+      "lat": 18.92298,
+      "lng": 72.83187,
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
+      "primary_type": "restaurant",
+      "rating": 4.1,
+      "rating_count": 24000,
+      "price_level": 2,
+      "open_now": true,
+      "hours_today": "Saturday: 7:30 AM – 12:00 AM",
+      "reviews": [
+        {"author": "Sample Reviewer A", "rating": 5, "text": "Lively spot with a huge menu. Good for a long breakfast or a late snack.", "when": "2 weeks ago"},
+        {"author": "Sample Reviewer B", "rating": 4, "text": "Busy but worth it. Order the cold coffee and something from the grill.", "when": "a month ago"},
+        {"author": "Sample Reviewer C", "rating": 4, "text": "Classic Colaba stop. Expect a short wait at peak hours.", "when": "3 months ago"},
+        {"author": "Sample Reviewer D", "rating": 3, "text": "Fine food, a bit crowded for my taste.", "when": "5 months ago"}
+      ],
+      "website": "https://example.com/leopold-cafe-sample",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Leopold+Cafe+Colaba+Mumbai",
+      "editorial_summary": "Long-running Colaba restaurant and bar with a wide multi-cuisine menu."
+    },
+    {
+      "place_id": "mock_cafe_mondegar",
+      "name": "Cafe Mondegar",
+      "address": "5A, Colaba Causeway, Colaba, Mumbai, Maharashtra 400001, India",
+      "lat": 18.92314,
+      "lng": 72.8324,
+      "types": ["restaurant", "cafe", "food", "point_of_interest", "establishment"],
+      "primary_type": "restaurant",
+      "rating": 4.2,
+      "rating_count": 14000,
+      "price_level": 2,
+      "open_now": true,
+      "hours_today": "Saturday: 8:00 AM – 12:00 AM",
+      "reviews": [
+        {"author": "Sample Reviewer E", "rating": 4, "text": "Jukebox, beer and a relaxed vibe.", "when": "a week ago"}
+      ],
+      "website": null,
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cafe+Mondegar+Colaba+Mumbai",
+      "editorial_summary": null
+    }
+  ]
+}

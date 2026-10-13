@@ -1,0 +1,5 @@
+{
+  "_comment": "Not-found case: this file adds no places. GPS at the point below has no public POI within 75 m (stand-in for a private home), and unmatched text queries return nothing.",
+  "places": [],
+  "private_location_example": {"lat": 19.2, "lng": 72.9}
+}

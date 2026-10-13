@@ -1,0 +1,61 @@
+{
+  "_comment": "SAMPLE DATA for MOCK_MODE only. Three same-named venues in different cities to exercise the ambiguous / pick-a-candidate flow. Addresses beyond the first are illustrative.",
+  "places": [
+    {
+      "place_id": "mock_madras_matunga",
+      "name": "Cafe Madras",
+      "address": "Sir Bhalchandra Rd, Matunga East, Mumbai, Maharashtra 400019, India",
+      "lat": 19.0270,
+      "lng": 72.8560,
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
+      "primary_type": "restaurant",
+      "rating": 4.3,
+      "rating_count": 7000,
+      "price_level": 1,
+      "open_now": true,
+      "hours_today": "Saturday: 7:00 AM – 11:00 PM",
+      "reviews": [
+        {"author": "Sample Reviewer I", "rating": 5, "text": "South Indian breakfast done right. Filter coffee is the highlight.", "when": "3 weeks ago"}
+      ],
+      "website": null,
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cafe+Madras+Matunga+Mumbai",
+      "editorial_summary": null
+    },
+    {
+      "place_id": "mock_madras_bengaluru",
+      "name": "Cafe Madras",
+      "address": "Malleshwaram, Bengaluru, Karnataka 560003, India",
+      "lat": 13.0035,
+      "lng": 77.5700,
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
+      "primary_type": "restaurant",
+      "rating": 4.2,
+      "rating_count": 3200,
+      "price_level": 1,
+      "open_now": true,
+      "hours_today": "Saturday: 6:30 AM – 10:30 PM",
+      "reviews": [],
+      "website": null,
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cafe+Madras+Malleshwaram+Bengaluru",
+      "editorial_summary": null
+    },
+    {
+      "place_id": "mock_madras_pune",
+      "name": "Cafe Madras",
+      "address": "Deccan Gymkhana, Pune, Maharashtra 411004, India",
+      "lat": 18.5167,
+      "lng": 73.8409,
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
+      "primary_type": "restaurant",
+      "rating": 4.0,
+      "rating_count": 1500,
+      "price_level": 1,
+      "open_now": false,
+      "hours_today": "Saturday: 8:00 AM – 10:00 PM",
+      "reviews": [],
+      "website": null,
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cafe+Madras+Deccan+Pune",
+      "editorial_summary": null
+    }
+  ]
+}

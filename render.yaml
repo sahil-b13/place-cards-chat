@@ -1,0 +1,33 @@
+# Render Blueprint for the backend. Secrets (sync: false) are entered in the Render dashboard, never committed.
+services:
+  - type: web
+    name: place-cards-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: MOCK_MODE
+        value: "false"
+      - key: TRUST_PROXY
+        value: "true"
+      - key: VISION_PROVIDER
+        value: gemini
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash-lite
+      - key: VISION_MODEL
+        value: claude-haiku-5-5
+      - key: RATE_LIMIT_PER_MINUTE
+        value: "20"
+      - key: ALLOWED_ORIGINS
+        sync: false          # e.g. https://your-app.vercel.app (exact origin, no trailing slash)
+      - key: GOOGLE_PLACES_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false          # only if VISION_PROVIDER=anthropic
